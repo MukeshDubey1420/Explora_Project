@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explora</title>
+    <meta property="og:url"                content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html" />
+    <meta property="og:type"               content="article" />
+    <meta property="og:title"              content="When Great Minds Don’t Think Alike" />
+    <meta property="og:description"        content="How much does culture influence creative thinking?" />
+    <meta property="og:image"              content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+     <link rel="icon" href="http://i.imgur.com/9hP92H9.jpg">
+    <link rel="stylesheet" type="text/css" href="css/search.css" />
+      <link href="hover-master/css/hover.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" />
+   <link href="css/hover.css" rel="stylesheet" media="all">
+  <script src="https://use.fontawesome.com/71268936c0.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ <script type="text/javascript" src="js/post.js"></script>
+ <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</head>
+<body onload="myFunction()">
+  <div class="preload"><img src="http://i.imgur.com/KUJoe.gif">
+  </div>
+  <div class="content">
+  <nav class="navbar navbar-default">
+    <!-- nav section starts -->
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="index.html"><img class="hvr-pulse-grow"  src="http://i.imgur.com/9hP92H9.jpg" width="67px" height="44px"></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <form class="navbar-form navbar-right">
+              <a href="index.html" class="hvr-icon-spin">Explora</a>
+      <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search YouR Question...">
+        <div class="input-group-btn">
+<a href="search.html"><button type="button" id="searchbtn"class="btn btn-default hvr-forward "><i class="glyphicon glyphicon-search"></i>Search</button></a>
+            </div>
+      </div>
+    </form>
+      </div>
+    </div>
+  </nav>
+
+  <!--nav section ends  -->
+  <!-- post question section starts -->
+    <div class="container-fluid">
+      <div class="col-md-8 col-sm-8">
+      <section class="postquestion">
+      <button type="button" id="postque"class="btn btn-lg btn-outline-success hvr-grow-shadow"  data-toggle="modal" data-target="#myModal">Post Question</button>
+      <!-- Modals -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+
+          <!-- Modals content-->
+
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title" ><b>Post Your Question</b></h4>
+            </div>
+            <div class="modal-body form-group">
+              <form action="#" class="form-group" id="myForm" method="post" autocomplete="on">
+              <ul>
+              <div class="form-group"><li><label for="Name-text" class="control-label">NAME: <span class="glyphicon glyphicon-user"></span></label> <input type="text" class="form-control" id="contactname" name="user" size="30"  minlength="4" maxlength="18" placeholder="Username" autofocus required>
+            </li>
+              </div>
+                <div class="form-group"><li><label for="email" class="control-label">EMAIL-ID: <span class="glyphicon glyphicon-envelope"></span></label> <input type="email" class="form-control" id="contactemail" name="emailid" size="30" placeholder="Enter a valid email address" required></li>
+                </div>
+                <div class="form-group"><li><label for="phone" class="control-label">PHONE NO: <span class="glyphicon glyphicon-phone-alt"></span></label> <input type="number" class="form-control" id="contactno" name="phno" size="30" minlength="10" mmaxlength="10" placeholder="Enter a valid phone number" pattern="[0-9]{10}" required>
+                </li>
+                              </div>
+                               <br />
+                               <div class="container-fluid">
+                                 <div class="col-md-6 col-sm-6">
+                              <select id="selectsem" class="btn btn-primary hvr-float-shadow" >
+                                                    <option class="selsem" hidden>Select Semester</option>
+                                                     <option class="selsem">First</option>
+                                                        <option class="selsem" >Second</option>
+                                                       <option class="selsem" >Third</option>
+                                                     <option class="selsem">Fourth</option>
+                                                       <option class="selsem" >Fifth</option>
+                                                     <option class="selsem">Sixth</option>
+                                                       <option class="selsem">Seventh</option>
+                                                       <option  class="selsem">Eighth</option>
+                                                     </select>
+
+
+                 </div>
+
+              <div class="col-md-6 col-sm-6">
+                <select id="selectsub" class="btn btn-primary hvr-float-shadow" >
+                	<option class="selsub" hidden>Select Subject</option>
+
+                                    </select>
+                                </div>
+
+               </div>
+               <br/>
+                 <div class="form-group"><li><label for="tags-text" class="control-label">RELATED TAGS: <span class="glyphicon glyphicon-tags"></span></label> <input type="text" class="form-control" id="relatedtag" name="subject" size="30" placeholder="Mention Tags Here" required></li>
+                 </div>
+                 <div class="form-group"><li><label for="message-text" class="control-label">POST YOUR QUESTION: <span class="glyphicon glyphicon-text-size"></span></label> <textarea class="form-control" id="texthere" name="texts" placeholder="Write YouR Question Here.."  required></textarea></li></div>
+                </ul>
+            </div>
+            <div class="modal-footer">
+         <div class="form-group"><input type="submit" id="post" class="btn btn-success" value="Post Question" />
+            <input type="submit" id="closebutton" class="btn btn-danger" data-dismiss="modal" value="close" />
+          </div>
+            </div>
+          </form>
+          </div>
+
+        </div>
+      </div>
+      </section>
+    </div>
+    <div class="col-md-4 col-sm-4">
+        <section class="semester">
+      <select id="selectsemester" class="btn btn-lg btn-outline-success hvr-grow-shadow" >
+                            <option class="hvr-forward hidden">Select Semester</option>
+                             <option class="hvr-forward">First</option>
+                                <option class="hvr-forward" >Second</option>
+                               <option class="hvr-forward">Third</option>
+                             <option class="hvr-forward">Fourth</option>
+                               <option class="hvr-forward" >Fifth</option>
+                             <option class="hvr-forward">Sixth</option>
+                               <option class="hvr-forward">Seventh</option>
+                               <option  class="hvr-forward">Eighth</option>
+                             </select>
+
+
+
+
+    </section>
+    </div>
+  </div>
+    <!-- post question section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              <!--pagination starts -->
+
+                    <div class="container">
+                      <div class="col-md-12 col-sm-12 col-xs-12">
+                        <section id="pagenation">
+                    <h2 id="paging" class="hvr-icon-forward" "font-size:27px" "margin-bottom:87px"><b>Refer To the Page by clicking here..</b></h2>
+                   <ul class="pagination">
+                        <li><a href="index2.html">»</a></li>
+                   <li><a href="index.html">1</a></li>
+                  <li><a href="index2.html">2</a></li>
+                 <li class="active"><a href="search.html">3</a></li>
+                    <li><a href="#">»</a></li>
+                 </ul>
+               </section>
+                 </div>
+             </div>
+
+             <!--pagination ends -->
+
+                 <!-- footer starts  -->
+
+
+            <div class="container-fluid">
+              <div class="row">
+                <footer>
+                  <section id="footer">
+                  <div class="col-md-9 col-sm-9">
+            <a href="index.html" class="btn btn-link" role="button">Home</a>
+            <a href="#" class="btn btn-link">Contact Us</a>
+           <a href="#" class="btn btn-link">Share Your Feedback</a>
+            <span style="color: darkblue;">© 2017<span style="color: blue"> Explora</span></span>
+          </div>
+          <div class="col-md-3 col-sm-3">
+            <section id="footericons" >
+                <div class="footer-social-icons">
+                    <ul class="social-icons">
+                        <li><a href="https://www.google.co.in/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=facebook" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/login" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.youtube.com/" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+                        <li><a href="https://www.linkedin.com/uas/login" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://plus.google.com/apps/activities" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
+                    </ul>
+                </div>
+            </section>
+            </div>
+          </section>
+              </footer>
+            </div>
+         </div>
+
+            <div class="feedback">
+            <h3>Would u <strong>Like To Give Feedback </strong>on Facebook to us... </h3>
+            <p >
+              Your Feedback Is Important For Us..
+            </p>
+         <iframe src="https://www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Fzuck&width=79&height=65&layout=button&size=large&show_faces=true&appId" width="79" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+         <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=123&layout=button&action=like&size=large&show_faces=true&share=true&height=65&appId" width="123" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+         </div>
+
+
+
+                            <!-- footer ends  -->
+
+
+
+                            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+                            <script type="text/javascript" src="js/bootstrap.min.js"></script>
+                              <script>
+                             $(function() {
+                                   $(".preload").fadeOut(500, function() {
+                                       $(".content").fadeIn(250);
+                                   });
+                               });
+                               </script>
+                             </div>
+                                </body>
+                                    </html>

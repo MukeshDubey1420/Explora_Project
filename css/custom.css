@@ -1,0 +1,293 @@
+.content {display:none;}
+.preload { width:100px;
+    height: 100px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+  }
+
+
+.btn.btn-default.hvr-pop{
+  margin-top: -1px;
+  margin-right: -9px;
+   margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid blue;
+}
+#postque {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid blue;
+}
+#selectsub{
+  padding: 10px;
+  font-size: 18px;
+    cursor: pointer;
+
+}
+.selsub{
+  padding: 10px;
+    cursor: pointer;
+}
+#selectsub:hover {
+  color: black;
+    background-color: white;
+    border: 1px solid blue;
+}
+
+#selectsem{
+    cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+}
+.selsem{
+    cursor: pointer;
+  padding: 10px;
+}
+#selectsem:hover {
+  color: black;
+    background-color: white;
+    border: 1px solid blue;
+}
+
+#selectsemester {
+  padding: 10px;
+    cursor: pointer;
+  font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid blue;
+}
+.hvr-forward{
+  cursor: pointer;
+padding: 10px;
+}
+.tab1-right > a > button:hover {
+    background: white;
+    border: 1px solid blue;
+    color: black;
+}
+#postque:hover {
+    background-color: lightblue;
+    border: 1px solid #48ad7d;
+}
+
+
+ #selectsemester:hover {
+    background-color: lightblue;
+    border: 1px solid #48ad7d;
+}
+#searchbtn:hover{
+    background-color: white;
+  border: 1px solid blue;
+}
+#semesterbutton:hover{
+  color: black;
+  background-color: white;
+border: 1px solid blue;
+}
+#subjectbutton:hover{
+  color: black;
+  background-color: white;
+border: 2px solid blue;
+}
+
+.hvr-shadow-radial{
+box-shadow: 0 0 1px transparent;
+position: relative;
+
+
+}
+
+
+.hvr-icon-spin{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 26px;
+  color: blue;
+  font-weight:bold;
+}
+.hvr-icon-forward{
+  font-size: 17px;
+}
+
+.modal-body .form-horizontal .col-sm-2,
+  .modal-body .form-horizontal .col-sm-10 {
+      width: 100%
+  }
+
+  .modal-body .form-horizontal .control-label {
+      text-align: left;
+  }
+  .modal-body .form-horizontal .col-sm-offset-2 {
+      margin-left: 15px;
+  }
+  .modal-title {
+    text-align: center;
+    font-size: 30px;
+  }
+
+#paging.hvr-icon-forward {
+
+  font-size: 20px;
+  margin-bottom: 87px;
+}
+
+#footer p{
+  font-size: 18px;
+}
+
+#footer{
+  text-align: center;
+  background-color:#ddd;
+  height: 45px;
+font-size: 18px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+    text-align: center;
+}
+#footericons{
+float: right;
+padding-right: 20px;
+}
+.feedback{
+  text-align: center;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+body {
+    font-family: 'Lato', sans-serif;
+    color: #FFF;
+    background: #322f30;
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 100%;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+  font-size:18px;
+
+}
+ul.social-icons {
+    margin-top: 0px;
+margin-bottom: 0px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #ddd;
+    color: darkblue;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #ddd;
+    color: skyblue;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #ddd;
+  color: red;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+    color: white;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #ddd;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+.fa-google-plus {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #ddd;
+    color: red;
+}
+.fa-google-plus:hover {
+    background-color: #e25714;
+    color: white;
+}
+
+
+
+.nav-tabs > li > a {
+  font-size: 22px;
+    text-align: center;
+    color: blue;
+}
+.nav-tabs > li > a {
+    font-size: 22px;
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+.nav > li > a {
+    font-size: 20px;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    font-size: 25px;
+    color: #080101;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
