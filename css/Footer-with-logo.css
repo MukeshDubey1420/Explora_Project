@@ -9,17 +9,21 @@
 
 #myFooter .info{
     text-align: justify;
-    color: #afb0b1;
+    color: black;
+    font-size: 15px;
 }
-
+#myFooter .info:hover{
+    color: blue;
+}
 #myFooter ul {
     list-style-type: none;
     padding-left: 0;
     line-height: 1.7;
+
 }
 
 #myFooter h5 {
-    font-size: 18px;
+    font-size: 20px;
     color: blue;
     font-weight: bold;
     margin-top: 30px;
@@ -40,14 +44,15 @@
 }
 
 #myFooter a {
-    color: #d2d1d1;
+    color: black;
+    font-size: 15px;
     text-decoration: none;
 }
 
 #myFooter a:hover,
 #myFooter a:focus {
     text-decoration: none;
-    color: white;
+    color: blue;
 }
 
 #myFooter .second-bar {

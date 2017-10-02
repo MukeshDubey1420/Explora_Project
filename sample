@@ -1,0 +1,27 @@
+<div class="container-fluid">
+   <div class="row">
+      <footer>
+         <section id="footer">
+            <div class="col-md-9 col-sm-9">
+               <a href="index.html" class="btn btn-link" role="button">Home</a>
+               <a href="#" class="btn btn-link">Contact Us</a>
+               <a href="#" class="btn btn-link">Share Your Feedback</a>
+               <span style="color: darkblue;">© 2017<span style="color: blue"> Explora</span></span>
+            </div>
+            <div class="col-md-3 col-sm-3">
+               <section id="footericons" >
+                  <div class="footer-social-icons">
+                     <ul class="social-icons">
+                        <li><a href="https://www.google.co.in/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=facebook" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/login" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.youtube.com/" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+                        <li><a href="https://www.linkedin.com/uas/login" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://plus.google.com/apps/activities" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
+                     </ul>
+                  </div>
+               </section>
+            </div>
+         </section>
+      </footer>
+   </div>
+</div>
