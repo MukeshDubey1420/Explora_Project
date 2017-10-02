@@ -16,8 +16,9 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
       <link rel="icon" href="http://i.imgur.com/9hP92H9.jpg">
       <link rel="stylesheet" type="text/css" href="css/custom.css" />
-      <link href="hover-master/css/hover.css" rel="stylesheet" />
+      <link href="css/hover-min.css" rel="stylesheet" />
       <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link href="css/Footer-with-logo.css" rel="stylesheet" />
       <link href="css/bootstrap-theme.min.css" rel="stylesheet" />
       <link href="css/hover.css" rel="stylesheet" media="all">
       <script src="https://use.fontawesome.com/71268936c0.js"></script>
@@ -252,7 +253,7 @@
                            <section class="tab1-right">
                               <h2>sample text</h2>
                               <p>
-                                 sample paragraph  
+                                 sample paragraph
                               </p>
                               <h4><i class="fa fa-tags" aria-hidden="true"></i> sample tag</h4>
                               <a href="index2.html"><button type="button" class="btn btn-info ">View Answers</button></a>
@@ -264,7 +265,7 @@
             </div>
          </div>
          <!--pagination starts -->
-         <div class="container">
+         <div class="container-fluid">
             <div class="col-md-12 col-sm-12 col-xs-12">
                <section id="pagenation">
                   <h2 id="paging" class="hvr-icon-forward" "font-size:27px" "margin-bottom:87px"><b>Refer To the Page by clicking here..</b></h2>
@@ -279,34 +280,8 @@
             </div>
          </div>
          <!--pagination ends -->
-         <!-- footer starts  -->
-         <div class="container-fluid">
-            <div class="row">
-               <footer>
-                  <section id="footer">
-                     <div class="col-md-9 col-sm-9">
-                        <a href="index.html" class="btn btn-link" role="button">Home</a>
-                        <a href="#" class="btn btn-link">Contact Us</a>
-                        <a href="#" class="btn btn-link">Share Your Feedback</a>
-                        <span style="color: darkblue;">© 2017<span style="color: blue"> Explora</span></span>
-                     </div>
-                     <div class="col-md-3 col-sm-3">
-                        <section id="footericons" >
-                           <div class="footer-social-icons">
-                              <ul class="social-icons">
-                                 <li><a href="https://www.google.co.in/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=facebook" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
-                                 <li><a href="https://twitter.com/login" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
-                                 <li><a href="https://www.youtube.com/" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
-                                 <li><a href="https://www.linkedin.com/uas/login" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
-                                 <li><a href="https://plus.google.com/apps/activities" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
-                              </ul>
-                           </div>
-                        </section>
-                     </div>
-                  </section>
-               </footer>
-            </div>
-         </div>
+
+         <!--Feedback Starts -->
          <div class="feedback">
             <h3>Would u <strong>Like To Give Feedback </strong>on Facebook to us... </h3>
             <p >
@@ -316,6 +291,52 @@
             <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=123&layout=button&action=like&size=large&show_faces=true&share=true&height=65&appId" width="123" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
          </div>
       </div>
+      <!--feedback Ends-->
+         <!-- footer starts  -->
+         <footer id="myFooter">
+           <div class="container">
+               <div class="row">
+                   <div class="col-sm-3">
+                       <h5>Microsoft Corporation</h5>
+                       <ul>
+                           <li><a href="#">Home</a></li>
+                           <li><a href="#">Privacy & Cookies</a></li>
+                           <li><a href="#">Downloads</a></li>
+                       </ul>
+                   </div>
+                   <div class="col-sm-3">
+                       <h5>About us</h5>
+                       <ul>
+                           <li><a href="#">Company Information</a></li>
+                           <li><a href="#">Contact us</a></li>
+                           <li><a href="#">Reviews</a></li>
+                       </ul>
+                   </div>
+                   <div class="col-sm-3">
+                       <h5>Support</h5>
+                       <ul>
+                           <li><a href="#">FAQ</a></li>
+                           <li><a href="#">Help desk</a></li>
+                           <li><a href="#">Forums</a></li>
+                       </ul>
+                   </div>
+                   <div class="col-sm-3 info">
+                       <h5>Information</h5>
+                       <p>"Generally, Microsoft Is A Great Place To Work, No Doubt.The Work Is Interesting And Challenging,And Their Products Truly Change The World"</p>
+                   </div>
+               </div>
+           </div>
+           <div class="second-bar">
+              <div class="container">
+                   <h2 class="logo"><a href="#">Microsoft</a></h2>
+                   <div class="social-icons">
+                       <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                       <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                       <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+                   </div>
+               </div>
+           </div>
+       </footer>
       <!-- footer ends  -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
       <script  type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -325,7 +346,7 @@
          $(".content").fadeIn(250);
           });
           });
-          
+
       </script>
       </div>
    </body>

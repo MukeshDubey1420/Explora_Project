@@ -123,25 +123,7 @@
   margin-bottom: 87px;
 }
 
-#footer p{
-  font-size: 18px;
-}
 
-#footer{
-  text-align: center;
-  background-color:#ddd;
-  height: 45px;
-font-size: 18px;
-  right: 0;
-  bottom: 0;
-  left: 0;
-
-    text-align: center;
-}
-#footericons{
-float: right;
-padding-right: 20px;
-}
 .feedback{
   text-align: center;
 }
@@ -162,93 +144,4 @@ a {
 ul {
     padding:0;
     list-style: none;
-}
-.footer-social-icons {
-    width: 100%;
-    display:block;
-    margin: 0 auto;
-}
-.social-icon {
-    color: #fff;
-  font-size:18px;
-
-}
-ul.social-icons {
-    margin-top: 0px;
-margin-bottom: 0px;
-}
-.social-icons li {
-    vertical-align: top;
-    display: inline;
-    height: 100px;
-}
-.social-icons a {
-    color: #fff;
-    text-decoration: none;
-}
-.fa-facebook {
-    padding:10px 14px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #ddd;
-    color: darkblue;
-}
-.fa-facebook:hover {
-    background-color: #3d5b99;
-}
-.fa-twitter {
-    padding:10px 12px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #ddd;
-    color: skyblue;
-}
-.fa-twitter:hover {
-    background-color: #00aced;
-}
-.fa-youtube {
-    padding:10px 14px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #ddd;
-  color: red;
-}
-.fa-youtube:hover {
-    background-color: #e64a41;
-    color: white;
-}
-.fa-linkedin {
-    padding:10px 14px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #ddd;
-}
-.fa-linkedin:hover {
-    background-color: #0073a4;
-}
-.fa-google-plus {
-    padding:10px 9px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #ddd;
-    color: red;
-}
-.fa-google-plus:hover {
-    background-color: #e25714;
-    color: white;
 }
