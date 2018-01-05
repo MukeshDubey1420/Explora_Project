@@ -11,7 +11,7 @@
        <link rel="icon" href="http://i.imgur.com/9hP92H9.jpg">
        
       <link rel="stylesheet" type="text/css" href="css/custom.css" />
-       
+       <link rel="stylesheet" type="text/css" href="css/pace-theme-corner-indicator.css" />
       <link href="css/hover-min.css" rel="stylesheet" />
       <link href="css/bootstrap.min.css" rel="stylesheet" />
         <link href="css/Footer-with-logo.css" rel="stylesheet" />
@@ -22,9 +22,10 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
       <script type="text/javascript" src="js/post.js"></script>
+       <script type="text/javascript" src="js/pace.min.js"></script>
       <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
    </head>
-   <body>
+   <body  onload="myFunction()">
         <div class="preload"><img src="http://i.imgur.com/KUJoe.gif">
         </div>
       <div class="content">
@@ -84,7 +85,7 @@
                                     <br />
                                     <div class="container-fluid">
                                        <div class="col-md-6 col-sm-6">
-                                          <select id="selectsem" class="btn btn-primary hvr-float-shadow" >
+                                          <select id="selectsem"  class="btn btn-primary hvr-float-shadow selsemester" >
                                              <option class="selsem" hidden>Select Semester</option>
                                              <option class="selsem">First</option>
                                              <option class="selsem" >Second</option>
